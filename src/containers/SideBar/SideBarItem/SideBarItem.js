@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon, Menu } from "semantic-ui-react";
-import "/SideBarItem.scss";
+import "./SideBarItem.scss";
 
 const SideBarItem = props => {
   const highlight = props.highlight ? "hightlight-item" : null;
