@@ -1,8 +1,8 @@
 import React from "react";
 import SideBarItem from "./SideBarItem/SideBarItem";
 import { Menu, Divider } from "semantic-ui-react";
+import SideBarHeader from "./SideBarHeader/SideBarHeader";
 import "./SideBar.scss";
-import { SideBarHeader } from "./SideBarHeader/SideBarHeader";
 
 class SideBar extends React.Component {
   render() {
