@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
     "enzyme-to-json": "^3.3.5",
     "javascript-time-ago": "^2.0.1",
     "node-sass": "^4.11.0",
