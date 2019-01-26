@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from "react";
 import Subscription from "./Subscription/Subscription";
-import { Divider } from "semantic-ui-css";
+import { Divider } from "semantic-ui-react";
 import SideBarHeader from "../SideBarHeader/SideBarHeader";
 
 class Subscriptions extends Component {

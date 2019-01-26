@@ -1,16 +1,16 @@
-import React from "react";
-import SideBarItem from "./SideBarItem/SideBarItem";
+import React, { Component } from "react";
 import { Menu, Divider } from "semantic-ui-react";
 import SideBarHeader from "./SideBarHeader/SideBarHeader";
 import Subscriptions from "./Subscriptions/Subscriptions";
 import SideBarFooter from "./SideBarFooter/SideBarFooter";
+import SideBarItem from "./SideBarItem/SideBarItem";
 import "./SideBar.scss";
 
-class SideBar extends React.Component {
+class SideBar extends Component {
   render() {
     return (
       <Menu borderless vertical stackable fixed="left" className="side-nav">
-        <SideBarItem highlight={true} label="Home" icon="home" />
+        <SideBarItem highlight label="Home" icon="home" />
         <SideBarItem label="Trending" icon="fire" />
         <SideBarItem label="Followers" icon="spy" />
         <Divider />
