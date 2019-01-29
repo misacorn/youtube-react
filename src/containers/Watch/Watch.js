@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-imort "./Watch.scss"
+import React, { Component } from "react";
+import "./Watch.scss";
 
-class Watch extends Component{
-  render(){
-    return <div>Watchhhhh</div>
+class Watch extends Component {
+  render() {
+    return <div>Watchhhhh</div>;
   }
 }
 
-export default Watch
+export default Watch;
